@@ -17,32 +17,38 @@ class Menu extends React.Component {
             {
                 title: 'Item 1',
                 imageUrl: phone,
-                id: 1
+                id: 1,
+                linkUrl: 'item1'
             },
             {
                 title: 'Item 2',
                 imageUrl: battery,
-                id: 2
+                id: 2,
+                linkUrl: ''
             },
             {
                 title: 'Item 3',
                 imageUrl: audio,
-                id: 3
+                id: 3,
+                linkUrl: ''
             },
             {
                 title: 'Item 4',
                 imageUrl: laptop,
-                id: 4
+                id: 4,
+                linkUrl: ''
             },
             {
                 title: 'Item 5',
                 imageUrl: cable,
-                id: 5
+                id: 5,
+                linkUrl: ''
             },
             {
                 title: 'Item 6',
                 imageUrl: camera,
-                id: 6
+                id: 6,
+                linkUrl: ''
             },
         ]
         }
@@ -51,8 +57,8 @@ class Menu extends React.Component {
     render(){
         return (
             <div className="menu">
-                {this.state.sections.map(({title, imageUrl, id}) => (
-                    <MenuItem key={id} title={title} imageUrl={imageUrl}/>
+                {this.state.sections.map(({id, ...otherSectionProps}) => (
+                    <MenuItem key={id} {...otherSectionProps}/>
                 ))}
             </div> 
         )

@@ -5,7 +5,7 @@ import Menu from "../../components/menu/menu.component"
 
 const HomePage = () => (
     <div className="homepage">
-        <Menu />
+        <Menu/>
     </div>
 );
 

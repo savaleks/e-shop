@@ -1,8 +1,10 @@
-const SHOP_DATA = [{
+const SHOP_DATA = {
+  item1: {
     id: 1,
     title: 'Item1',
-    routeName: 'phones',
-    items: [{
+    routeName: 'item1',
+    items: [
+      {
         id: 1,
         name: 'Samsung',
         imageUrl: "https://via.placeholder.com/250.png",
@@ -58,10 +60,10 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  item2: {
     id: 2,
     title: 'Item2',
-    routeName: 'batteries',
+    routeName: 'item2',
     items: [{
         id: 10,
         name: 'Alcaline',
@@ -112,10 +114,10 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  item3: {
     id: 3,
     title: 'Item3',
-    routeName: 'headphones',
+    routeName: 'item3',
     items: [{
         id: 18,
         name: 'COWIN',
@@ -148,10 +150,10 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  item4: {
     id: 4,
     title: 'Item4',
-    routeName: 'laptop',
+    routeName: 'item4',
     items: [{
         id: 23,
         name: 'HP',
@@ -196,10 +198,10 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  item5: {
     id: 5,
     title: 'Item5',
-    routeName: 'cables',
+    routeName: 'item5',
     items: [{
         id: 30,
         name: 'Nordline',
@@ -238,10 +240,10 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  item6: {
     id: 6,
     title: 'Item6',
-    routeName: 'cameras',
+    routeName: 'item6',
     items: [{
         id: 30,
         name: 'Nikon',
@@ -280,6 +282,6 @@ const SHOP_DATA = [{
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;

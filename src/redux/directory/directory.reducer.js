@@ -11,37 +11,37 @@ const INITIAL_STATE = {
             title: 'Item 1',
             imageUrl: phone,
             id: 1,
-            linkUrl: 'item1'
+            linkUrl: 'shop/item1'
         },
         {
             title: 'Item 2',
             imageUrl: battery,
             id: 2,
-            linkUrl: ''
+            linkUrl: 'shop/item2'
         },
         {
             title: 'Item 3',
             imageUrl: audio,
             id: 3,
-            linkUrl: ''
+            linkUrl: 'shop/item3'
         },
         {
             title: 'Item 4',
             imageUrl: laptop,
             id: 4,
-            linkUrl: ''
+            linkUrl: 'shop/item4'
         },
         {
             title: 'Item 5',
             imageUrl: cable,
             id: 5,
-            linkUrl: ''
+            linkUrl: 'shop/item5'
         },
         {
             title: 'Item 6',
             imageUrl: camera,
             id: 6,
-            linkUrl: ''
+            linkUrl: 'shop/item6'
         },
     ]
 };
